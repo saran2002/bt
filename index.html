@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+ 
+  
+  <div>
+    <nav class="navbar navbar-expand-sm bg-info navbar-expand-lg   ">
+        <div class="container-fluid">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link p-0" href="#"><img src="data:image/png;base64,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" width="50px" height="50px"/></a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">reviews</a>
+            </li>
+            <button type="button" class="btn btn- dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              perundurai-theater
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">cosmo</a></li>
+              <li><a class="dropdown-item" href="#">ksr</a></li>
+              <li><a class="dropdown-item" href="#">nalapaus</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">arrs-salem</a></li>
+            </ul>
+            <li class="nav-item">
+                <a class="nav-link active" href="">contact</a>
+              </li>
+          </ul>
+          
+          
+          
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search here" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <br><br>
+      <hr><hr>
+      <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.filmibeat.com/fanimg/movie/17919/valimai-photos-images-74572.jpg" alt="Los Angeles" class="d-block" style="width:40%">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.pinimg.com/originals/b5/cc/16/b5cc167a265d9c90cd1ac39802c37366.jpg" alt="Chicago" class="d-block" style="width:50%">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.mirchi9.com/wp-content/uploads/2022/03/Suriya-ET-Movie-Review-Rating.jpg" alt="New York" class="d-block" style="width:50%">
+    </div>
+  </div>
+  
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  
+  <div class="container-fluid mt-3">
+    <h3>Entertainment</h3>
+    <p>Book tickets for movies, concerts, live events, sports, activities, and much more on BookMyShow. Stream live events from the comfort of your home. Buy or rent exclusive titles and watch at home</p>
+  </div> 
+      <br>
+      <hr><hr>
+      <h4 style="color: blue;">About</h4>
+      <p>
+        Bigtree Entertainment's BookMyShow is India's largest entertainment ticketing website. Headquartered in Mumbai, it is the only destination for movie and non-movie options like events, plays and sports. Within a decade of its inception, the company poses a 40% CAGR in revenues and over 90% market share in the online entertainment ticketing space. With offices in India, New Zealand and Malaysia, the company aims to present their customers with endless options to purchase tickets for the latest movies, music concerts, plays, stand-up comic acts, and major sporting events to name a few. Tickets can be booked through various platforms like internet, mobile application, WAP and the in - house call center. With ticketing for over 3,000 screens across 250 cities, BookMyShow has partnerships with all major Indian production houses and studios with real time ticketing for major cinema chains like Inox, Big Cinemas, Cinemax, Fun Cinemas etc. 85% of all cinema tickets sold online are booked on Bookmyshow, resulting in sales peaking up to 10 million plus tickets per month. BookMyShow has ticketed for over 1,500 plays online and is the exclusive and permanent ticketing partners for theatre venues like Prithvi Theater, Mumbai, NCPA Mumbai, Indian Habitat Centre Delhi and Rangshankara Bangalore. With more than 100 million page views per month, BookMyShow has ticketed for more than 300 live large format events and sport events such as ICL, city Marathons, etc.
+      </p>
+      <br><hr><hr>
+      <h4 style="color: blue;">Contact</h4>
+      <p>Bigtree Entertainment's BookMyShow is India's largest entertainment ticketing website. Headquartered in Mumbai, it is the only destination for movie and non-movie options like events, plays and sports. Within a decade of its inception, the company poses a 40% CAGR in revenues and over 90% market share in the online entertainment ticketing space. With offices in India, New Zealand and Malaysia, the company aims to present their customers with endless options to purchase tickets for the latest movies, music concerts, plays, stand-up comic acts, and major sporting events to name a few. Tickets can be booked through various platforms like internet, mobile application, WAP and the in - house call center. With ticketing for over 3,000 screens across 250 cities, BookMyShow has partnerships with all major Indian production houses and studios with real time ticketing for major cinema chains like Inox, Big Cinemas, Cinemax, Fun Cinemas etc. 85% of all cinema tickets sold online are booked on Bookmyshow, resulting in sales peaking up to 10 million plus tickets per month. BookMyShow has ticketed for over 1,500 plays online and is the exclusive and permanent ticketing partners for theatre venues like Prithvi Theater, Mumbai, NCPA Mumbai, Indian Habitat Centre Delhi and Rangshankara Bangalore. With more than 100 million page views per month, BookMyShow has ticketed for more than 300 live large format events and sport events such as ICL, city Marathons, etc.</p>
+
+</body>
+</html>
